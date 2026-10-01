@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="0ZCLCa8EBSGep3DUduFP9m">
+<head data-page-node-id="y7RusF6v63JTPIiNY8V0TK">
+<meta charset="UTF-8" data-page-node-id="qAhwijYECdyXwqGX0kAWaS">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="n0hiWvgN3YIfoKsPA6fodG">
+<title>猜灯谜 · 月满中秋</title>
+<link rel="stylesheet" href="css/style.css?v=20260926-13" data-page-node-id="vBz3s2R0rVktGV6TU6vvCJ">
+<link rel="icon" href="assets/ico/favicon.ico?v=20260926-13" sizes="16x16 32x32 48x48">
+<script src="js/bgm-boot.js?v=20260926-13"></script>
+</head>
+<body data-page-node-id="KThS33scrHObKnieed8o2g">
+
+<header class="site-header" data-page-node-id="g3vVFdwwWh0rScPOlYZwuX">
+  <div class="inner" data-page-node-id="MhG7hT3XIxH8EEUTB4iBQH">
+    <a class="brand" href="index.html?v=20260926-13" data-page-node-id="JuyO8p6JHImFnvKAiDigGA">月满中秋<small data-page-node-id="zUjcHPVq3yRbcxGlfAJOct">花好月圆</small></a>
+    <nav class="nav" data-page-node-id="wVDUdLejC7jArl9jpTb06O">
+      <a href="index.html?v=20260926-13" data-page-node-id="QSmatrjRMKLfoBNqIUxudb">首页</a>
+      <a href="blessing.html?v=20260926-13" data-page-node-id="CjcrouZ5E0xO0UGhEt9coY">祝福贺卡</a>
+      <a href="lantern.html?v=20260926-13" class="active" data-page-node-id="fesdgwUZ7q920wpazfoOMe">猜灯谜</a>
+      <a href="gallery.html?v=20260926-13" data-page-node-id="Ufdeu4A8vA6CEEujUTj3N6">中秋图集</a>
+      <a href="author.html?v=20260926-13">作者信息</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page" data-page-node-id="WZxxWEdTVGmbAoAHmMbWlJ">
+
+  <div class="section-title" data-page-node-id="6p4gs0Ff4Wa2OPyA7fJRyY">
+    <h2 data-page-node-id="JMcEO7DYk51HJWoS2NibU7">猜灯谜</h2>
+    <p data-page-node-id="TZlJptmHTsSESeq6AXHAHU">十五条经典灯谜 · 答题积分 · 挑战连对纪录</p>
+  </div>
+
+  <div class="lantern-layout" data-page-node-id="jcXanYGOAFALNdZEF8DYqf">
+
+    <!-- 答题区 -->
+    <div data-page-node-id="6AijiAhG27jn4I2UYlNkc1">
+      <div class="panel riddle-card" data-page-node-id="uhWLg3pYNpffQx1ntKUQDs">
+        <div class="riddle-q" id="riddleQ" data-page-node-id="iDC6CBHOtM1BsfnnzWeDKl">加载中……</div>
+        <div class="riddle-meta" id="riddleMeta" data-page-node-id="iBRZEEdlCAihChDfSznyyL"></div>
+        <div class="riddle-form" data-page-node-id="OLoUvX9V8jbHiUBvrQVryh">
+          <input type="text" id="riddleInput" placeholder="写下你的谜底" autocomplete="off" data-page-node-id="0LAdHS0av2lYIA3oTJ6rGh">
+          <button class="btn btn-gold" id="btnSubmit" data-page-node-id="LGnIU0nKnlAbQkckCKVYOk">猜</button>
+        </div>
+        <div class="riddle-feedback" id="riddleFeedback" data-page-node-id="O6E63BspuommzzuyY7hijF"></div>
+        <div class="riddle-ops" data-page-node-id="2u5uVz5N5MnlCQt2uEkSWB">
+          <button class="btn" id="btnPrev">上一题</button>
+          <button class="btn" id="btnReveal" data-page-node-id="3oxU0vug8oWDKh8ET2uj0b">看答案</button>
+          <button class="btn" id="btnNext" data-page-node-id="mq6ZJqWivXFMwLQBUzPWaj">下一题</button>
+        </div>
+      </div>
+
+      <div class="panel" style="margin-top:18px" data-page-node-id="qmAMwBVWtcPGf7HKpzRUfH">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px" data-page-node-id="HpyGW86k6g8IVh89woR3nD">
+          <h3 style="font-size:15px;letter-spacing:2px;" data-page-node-id="OXyLtBenhE4H8hHz9DeUOW">灯谜全览</h3>
+          <button class="btn" id="btnToggleAll" style="padding:6px 16px;font-size:12px" data-page-node-id="cpJz5m0MrJjlA9Tg4zfapE">展开</button>
+        </div>
+        <div class="riddle-all" id="riddleAll" style="display:none" data-page-node-id="u1UNT4fphHhfJv3i8ZR6Lz"></div>
+      </div>
+    </div>
+
+    <!-- 成绩区 -->
+    <div class="panel" data-page-node-id="hDTNpTrsmsgNESAYRp3k9V">
+      <h3 style="font-size:15px;margin-bottom:14px;letter-spacing:2px;" data-page-node-id="JgMRztUXO2F48QLfxNOOcW">我的成绩</h3>
+      <div class="stat-grid" data-page-node-id="yLxqsUgSbaaKarjq07i7RY">
+        <div class="stat-cell" data-page-node-id="Bg6rHka3BNdkkQigtrIIXD"><div class="num" id="stAnswered" data-page-node-id="qXCfT7pTcpCTWKHQG1KpoI">0</div><div class="lbl" data-page-node-id="qCRZoGN2npVU8MmUiJEt0r">已答题</div></div>
+        <div class="stat-cell" data-page-node-id="0371LLaLWmETP4U2ZC0uX4"><div class="num" id="stCorrect" data-page-node-id="GWLPzPSaSaFPTk680gs6yu">0</div><div class="lbl" data-page-node-id="uugpGAoNEnRSt7SXeGmEWM">答对</div></div>
+        <div class="stat-cell" data-page-node-id="ajGC0dMoMu6ubFocsR0YUN"><div class="num" id="stRate" data-page-node-id="Bu31oWLO9frK6LQlUSdtKF">--</div><div class="lbl" data-page-node-id="ymZujbUslYgAaPGPPnKmyC">正确率</div></div>
+        <div class="stat-cell" data-page-node-id="57XvfxHwnWmdqYODES1wjX"><div class="num" id="stStreak" data-page-node-id="2bypUfz7YH8KxzaRO9TrYp">0</div><div class="lbl" data-page-node-id="GMBYJx9QGjaYR5cVLTrk7f">当前连对</div></div>
+        <div class="stat-cell" data-page-node-id="Jag0cJVty3uHuJZFdZdKwC"><div class="num" id="stBest" data-page-node-id="fE16Hz0nqYw3eyW9ybqCAd">0</div><div class="lbl" data-page-node-id="pVkYyTqHA0sNDLy1khYrlq">最佳连对</div></div>
+        <div class="stat-cell" data-page-node-id="x7m0vMaj8QlNESU6Jx9chK"><div class="num" id="stProgress" data-page-node-id="DyC8iW4JihE4kDZY04m62v">0/25</div><div class="lbl" data-page-node-id="mJcqCdEX1xo53KCOcfaGPM">攻克灯谜</div></div>
+      </div>
+      <button class="btn" id="btnResetStat" style="width:100%" data-page-node-id="bBCl6ieiVAlyFIo2whgZuZ">清空成绩重来</button>
+      <p class="muted" style="font-size:12px;margin-top:14px;line-height:1.8" data-page-node-id="uQKfr5yEGiwLWP76h3cgcU">
+        成绩仅在本次浏览期间有效，刷新或离开本页后会重新开始。
+      </p>
+    </div>
+
+  </div>
+
+  <p class="footer" data-page-node-id="Jc1slIUsrw1EDpLkm52WHb">月满中秋 · 花好月圆人团圆</p>
+
+</main>
+
+<script src="js/data.js?v=20260926-13"></script>
+<script src="js/common.js?v=20260926-13"></script>
+<script src="js/lantern.js?v=20260926-13"></script>
+</body>
+</html>

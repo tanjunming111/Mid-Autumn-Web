@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="3h88JChfhMQ4BBlVQsgGD7">
+<head data-page-node-id="hC2g83YVe4f9oVetXScjHq">
+<meta charset="UTF-8" data-page-node-id="I1jeVkH3c58Dd7ChlEeKBA">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="azUtUPHYSvwx0g4Bx9Elmp">
+<title>祝福贺卡 · 月满中秋</title>
+<link rel="stylesheet" href="css/style.css?v=20260926-13" data-page-node-id="HXGr5exn2I2HJHhvOwn9tv">
+<link rel="icon" href="assets/ico/favicon.ico?v=20260926-13" sizes="16x16 32x32 48x48">
+<script src="js/bgm-boot.js?v=20260926-13"></script>
+</head>
+<body data-page-node-id="fwTvQyLOcHiBCGN8ZJMib7">
+
+<header class="site-header" data-page-node-id="cWn8gryHdjN5ICfnqNrjtU">
+  <div class="inner" data-page-node-id="WfTb4FA1QJ2M6Qp4VBDrdS">
+    <a class="brand" href="index.html?v=20260926-13" data-page-node-id="7HB7x5L3mMI5zqnwT5funx">月满中秋<small data-page-node-id="tzfncKfIS5E1bWy6CThJpB">花好月圆</small></a>
+    <nav class="nav" data-page-node-id="HAxA39lN75kYOeNzad1kJG">
+      <a href="index.html?v=20260926-13" data-page-node-id="xNr85wbgGMrLszSkWuv9QU">首页</a>
+      <a href="blessing.html?v=20260926-13" class="active" data-page-node-id="enMK6mc20kqT5oTDZLnfcl">祝福贺卡</a>
+      <a href="lantern.html?v=20260926-13" data-page-node-id="owxgJz0sPrzJJUA9YdGWDG">猜灯谜</a>
+      <a href="gallery.html?v=20260926-13" data-page-node-id="NRwuJUZaxLyGvKFhUR6h2L">中秋图集</a>
+      <a href="author.html?v=20260926-13">作者信息</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page" data-page-node-id="n6T2UnS4RnEXE8f61sTfCb">
+
+  <div class="section-title" data-page-node-id="6gSyEfYBofrrnmZUwGAbpt">
+    <h2 data-page-node-id="l3BJxfabhfbDDLAAEqD7UE">祝福贺卡</h2>
+    <p>制作你的专属中秋贺卡</p>
+  </div>
+
+  <div class="editor-wrap" data-page-node-id="oehZJIZCIiaGdIJxs5khfj">
+
+    <!-- 左列：元素列表 + 添加元素 -->
+    <div>
+      <div class="panel" style="margin-bottom:16px" data-page-node-id="6Ophfh1h68rZH68XqbLIOs">
+        <h3 style="font-size:15px;margin-bottom:12px;letter-spacing:2px;" data-page-node-id="HE4Dj6zZkLorVSB7qKaTAW">元素列表</h3>
+        <div class="el-list" id="elList" data-page-node-id="2Apq7jK0TLtbkNMpaVT2jd"></div>
+      </div>
+
+      <div class="panel" style="margin-bottom:16px" data-page-node-id="R1boH6XQDbV4QpmszAqWfT">
+        <h3 style="font-size:15px;margin-bottom:12px;letter-spacing:2px;" data-page-node-id="hyCfvis9Y9CLcPZMArSEY7">添加元素</h3>
+        <div class="tpl-bar" id="paletteBar" data-page-node-id="a527nfTWmaHx4Nvp3rGlOM">
+          <button class="tpl-btn" data-add="moon" data-page-node-id="2qbQy2tcTW3y8FaGI3DYHO">＋ 月亮</button>
+          <button class="tpl-btn" data-add="rabbit" data-page-node-id="8EvlL7ws7TGDrsJBBJg6C3">＋ 玉兔</button>
+          <button class="tpl-btn" data-add="skylantern" data-page-node-id="kMxI1fSwwoR2izFWWlNuVS">＋ 孔明灯</button>
+          <button class="tpl-btn" data-add="branch" data-page-node-id="s8aycGCTdPISJehA7WPjBW">＋ 桂枝</button>
+          <button class="tpl-btn" data-add="mooncake" data-page-node-id="Q2oBawKFo7ImixZ2dfjcLE">＋ 月饼</button>
+          <button class="tpl-btn" data-add="textbox">＋ 文本框</button>
+        </div>
+        <p class="muted" style="font-size:12px;line-height:1.8;margin-top:4px" data-page-node-id="G6IzfKLuhK66lfPoAQXg9G">添加后在画布上拖动调整位置，拖四角可旋转与缩放（标题/祝福语/落款等文字元素只能缩放、不能旋转），拖四条边可改宽高，右键可删除或镜像。</p>
+      </div>
+    </div>
+
+    <!-- 中列：画布 -->
+    <div class="editor-col-canvas">
+      <div class="canvas-box" data-page-node-id="IsvnmoY8W8IM85Rh5Y0IxH">
+        <canvas id="cardCanvas" data-page-node-id="2Qs44dt7Dra04XbfSatOld"></canvas>
+        <p class="canvas-tip" data-page-node-id="KQEk3slA5QG7GMunCK8R6Y">点击元素可选中拖拽 · 拖四角可旋转与缩放（文字元素只能缩放）· 拖四条边可改宽高</p>
+        <div class="canvas-actions" data-page-node-id="rTbrrk3XRnH0beoVNsfEBc">
+          <button class="btn btn-gold" id="btnExport" data-page-node-id="tcMSGHgs1MRJOIzgfChxLD">生成 PNG 贺卡</button>
+          <button class="btn" id="btnReset" data-page-node-id="Nl96H7T3zo7BuHjG3Lq3bM">重置</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 右列：画布规格 + 写下祝福 -->
+    <div data-page-node-id="oUgoXfhqhgBpQ40lnuxXg4">
+
+      <div class="panel" style="margin-bottom:16px" data-page-node-id="C70QFonuhjSGNGd8YCtbW5">
+        <h3 style="font-size:15px;margin-bottom:12px;letter-spacing:2px;" data-page-node-id="hdUomFESDWuCGoD9CnBHnn">画布规格</h3>
+        <div class="tpl-bar" id="ratioBar" style="margin-bottom:10px" data-page-node-id="OVRcmQ8wcCAmXHNQdzwjfq">
+          <button class="tpl-btn active" data-ratio="3:4" data-page-node-id="WrdcL1OfSy6lXR3uPFEKM9">3:4 竖版</button>
+          <button class="tpl-btn" data-ratio="4:3" data-page-node-id="ZFD7BmTH93TnMPHxkVoG0n">4:3 横版</button>
+        </div>
+        <p class="muted" style="font-size:12px;line-height:1.8;margin:0">当前尺寸 <span id="sizeVal" style="color:var(--gold)">600 × 800</span> · 导出为 2 倍清晰度 PNG</p>
+      </div>
+
+      <div class="panel" style="margin-bottom:16px" data-page-node-id="4TFFVS2c6Hnc09QbL5uqaV">
+        <h3 style="font-size:15px;margin-bottom:12px;letter-spacing:2px;" data-page-node-id="71wiNin3gcF3onEK2xnlge">写下你的祝福</h3>
+        <label class="field" data-page-node-id="0mmI7VRRKRctBMgFlow9UX">
+          <div class="field-head"><span class="field-label" data-page-node-id="cddjoTP0TKAUa94SdQTiNm">贺卡标题</span>
+            <span class="size-ctrl">
+              <span class="size-val" id="quickTitleSizeVal">字体大小：35px</span>
+              <input type="range" id="quickTitleSize" min="12" max="72" step="1" title="标题字体大小">
+            </span>
+          </div>
+          <input type="text" id="quickTitle" placeholder="如：花好月圆" data-page-node-id="zFCUDH1DYfV6KNfcB36MS2">
+        </label>
+        <label class="field" style="margin-bottom:10px" data-page-node-id="bGfGXTu1m5ScUUdpTnCUs3">
+          <div class="field-head"><span class="field-label" data-page-node-id="toMVVnw0Gk7ZvCkxGEgmq2">祝福语</span>
+            <span class="size-ctrl">
+              <span class="size-val" id="quickBlessSizeVal">字体大小：25px</span>
+              <input type="range" id="quickBlessSize" min="14" max="48" step="1" title="祝福语字体大小">
+            </span>
+          </div>
+          <textarea id="quickBless" rows="3" placeholder="写下想对TA说的话"></textarea>
+        </label>
+        <div id="presetToggle" style="cursor:pointer;user-select:none;font-size:12px;color:var(--muted);margin-bottom:10px;letter-spacing:1px" data-page-node-id="vCGPHuiANGpqMc7wUmIth0">常用祝福语 <span id="presetArrow" data-page-node-id="zSHjDms5Dq9h5FfRWXpwX4">▸</span></div>
+        <div class="preset-list" id="quickPreset" style="display:none;margin-bottom:12px" data-page-node-id="SkEG5XzGdwIavpkvOhGdYy"></div>
+        <label class="field" style="margin-bottom:0" data-page-node-id="h1j6mwwJfPQq7mbRqXpZUI">
+          <div class="field-head"><span class="field-label" data-page-node-id="TmJiMYqmUFYweJIJ4uWu8h">落款署名</span>
+            <span class="size-ctrl">
+              <span class="size-val" id="quickSignSizeVal">字体大小：20px</span>
+              <input type="range" id="quickSignSize" min="12" max="72" step="1" title="落款字体大小">
+            </span>
+          </div>
+          <input type="text" id="quickSign" placeholder="如：—— 你的名字" data-page-node-id="NtfOfdPGrsCUsMwATCerPS">
+        </label>
+      </div>
+
+    </div>
+
+  </div>
+
+  <p class="footer" data-page-node-id="kcrP8dHnoQGellfc8tXXJN">月满中秋 · 花好月圆人团圆</p>
+
+</main>
+
+<script src="js/data.js?v=20260926-13"></script>
+<script src="js/rabbit-data.js?v=20260926-13"></script>
+<script src="js/mooncake-data.js?v=20260926-13"></script>
+<script src="js/common.js?v=20260926-13"></script>
+<script src="js/blessing.js?v=20260926-13"></script>
+</body>
+</html>
